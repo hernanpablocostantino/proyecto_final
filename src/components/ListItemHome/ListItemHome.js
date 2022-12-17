@@ -1,5 +1,10 @@
-export default function ListItemHome ({dato}) {
+import './listStyle.css'
+export default function ListItemHome ({dato,otraData,info}) {
+  const mostrar =()=>{
+    console.log(info)
+    alert(otraData)
+  }
   return (
-    <li>{dato}</li>
+    <li onClick={mostrar} className="btn btn-success">{dato}</li>
   )
 }

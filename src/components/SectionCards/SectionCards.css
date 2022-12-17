@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card {
+  background-color: #223142;
+}
+.section-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+.section-cards h2 {
+  color: whitesmoke;
+  text-align: center; 
+}
+.section-cards button {
+  color:#223142;
+  background-color: #6eccaf;
+  align-self: flex-end;
+  padding: 6px 12px;
+}
+.section-cards button:hover {
+  color: whitesmoke;
+  background-color:#6eccaf;
+}
+@media (max-width:768px) {
+  .section-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-cards button {
+    padding: 2px 8px;
+  }
+  .section-cards h2 {
+    font-size: 20px;
+  }
+}
