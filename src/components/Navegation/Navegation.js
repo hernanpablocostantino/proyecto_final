@@ -1,5 +1,15 @@
+import './Navegation.css';
 export default function Navegation() {
   return(
-    <h2>Navegacion que todavia no hicimos</h2>
+    <header className='menu'>
+      <h1>Proyecto - Rick & Morty</h1>
+      <nav>
+        <ul className='menu_items'>
+          <li>Home</li>
+          <li>Characters</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
   )
 }

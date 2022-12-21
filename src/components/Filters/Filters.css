@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+.filters-title {
+  color: #6eccaf;
+  font-size: 38px;
+  margin: 10px 20px 8px;
+  padding: 5px 35px;
+}
+label.form-check-label {
+  color: #6eccaf;
+  font-size: 16px;
+}
+input#Alive.form-check-input {
+  background-color: #b1f0dc;
+  margin: 4px 0px 0px -40px;
+}
+div.form-check.form-switch {
+  background-color: #344d67;
+  color: #6eccaf;
+  font-size: 16px;
+  margin: 0px 0px 2px;
+  padding: 8px 48px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+@media (max-width:768px) {
+  .filters-title {
+    color: #6eccaf;
+    flex-direction: column;
+  }
+  .section-filters {
+    flex-direction: column;
+    align-items: center;
+  }
+  div.form-check.form-switch {
+    margin: 5px;
+  }
+}
