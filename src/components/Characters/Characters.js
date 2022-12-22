@@ -49,9 +49,9 @@ export default function Characters() {
     <div>
       <Navegation />
       <div>
-        <h2 className='filters-title d-flex justify-content-start align-items-center fw-bold'>Filters</h2>
+        <h2 className='filters-title d-flex justify-content-start align-items-center'>Filters</h2>
       </div>
-      <section className='section-filters d-flex justify-content-between flex-wrap py-5'>
+      <section className='section-filters d-flex justify-content-between flex-wrap py-2'>
         <Filters nombreFiltro="Character Alive" datoFiltro="Alive" muestraValor={mostrarValor}/>
         <Filters nombreFiltro="Character Dead" datoFiltro="Dead" muestraValor={mostrarValor}/>
         <Filters nombreFiltro="Female" datoFiltro="Female" muestraValor={mostrarValor}/>

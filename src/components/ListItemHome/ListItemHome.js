@@ -1,4 +1,4 @@
-import './listStyle.css'
+import './ListItemHome.css'
 export default function ListItemHome ({dato,otraData,info}) {
   const mostrar =()=>{
     console.log(info)

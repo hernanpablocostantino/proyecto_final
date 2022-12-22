@@ -14,7 +14,7 @@ label.form-check-label {
   color: #6eccaf;
   font-size: 16px;
 }
-input#Alive.form-check-input {
+input.form-check-input {
   background-color: #b1f0dc;
   margin: 4px 0px 0px -40px;
 }
@@ -29,6 +29,10 @@ div.form-check.form-switch {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+.form-check-input:checked {
+  background-color: #223142;
+  border-color: #223142;
 }
 @media (max-width:768px) {
   .filters-title {

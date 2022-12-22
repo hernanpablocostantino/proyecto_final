@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+.main-contact-div {
+  background-color: #5c7592e6;
+  padding: 20px;
+}
+.main-contact-div h2 {
+  color: #223142;
+  font-size: 28px;
+  margin: 0px -12px 8px;
+  padding: 40px;
+}
+.main-contact-div h3 {
+  color: #223142;
+  font-size: 25px;
+  margin: 0px 12px 8px;
+}
+div.col-md-6 {
+  color: #223142;
+  font-size: 16px;
+  margin: 16px 0px 0px;
+  padding: 0px 8px;
+}
+div.col-12 button {
+  color: #f5f5f5;
+  font-size: 16px;
+  background-color: #344d67;
+  padding: 6px 12px;
+  border-color: #223142;
+}
+div.col-12 button:hover {
+  background-color: #6eccaf;
+  color: #223142;
+  border-color: #6eccaf;
+}
+@media (max-width:768px) {
+  .main-contact-div h3 {
+    text-align: center;
+  }
+}

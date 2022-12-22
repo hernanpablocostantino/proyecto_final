@@ -4,14 +4,12 @@
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
 }
-
 .card {
   background-color: #223142;
 }
 .section-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  
+  grid-template-columns: repeat(3, 1fr); 
 }
 .section-cards h2 {
   color: whitesmoke;
