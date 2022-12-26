@@ -1,9 +1,9 @@
-import { Fragment } from 'react'
 import Navegation from '../Navegation/Navegation'
 import "./Contact.css";
+
 export default function Contact() {
   return (
-    <Fragment>
+    <div>
       <Navegation />
       <main className='main-contact-div d-flex flex-column justify-content-center align-items-center m-auto mt-5 w-75 h-75'>
         <h2>Contact</h2>
@@ -16,7 +16,7 @@ export default function Contact() {
           </div>
           <div className='col-md-6'>
             <label htmlFor="correo" className='form-label'>Email</label>
-            <input type="email" className='form-control' id='correo'/>
+            <input type="email" className='form-control' id='correo' />
           </div>
           <div className='col-12'>
             <label htmlFor="mensaje" className='form-label'>Mensaje</label>
@@ -27,6 +27,6 @@ export default function Contact() {
           </div>
         </form>
       </main>
-    </Fragment>
+    </div>
   )
 }

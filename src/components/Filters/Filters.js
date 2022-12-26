@@ -1,4 +1,5 @@
 import "./Filters.css";
+
 export default function Filters({nombreFiltro,datoFiltro,muestraValor}) {
   return(
     <div className="form-check form-switch mx-2">

@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
 }
+.section-filters {
+  margin-top: -40px;
+}
 .filters-title {
   color: #6eccaf;
   font-size: 38px;
@@ -18,7 +21,7 @@ input.form-check-input {
   background-color: #b1f0dc;
   margin: 4px 0px 0px -40px;
 }
-div.form-check.form-switch {
+.form-check.form-switch {
   background-color: #344d67;
   color: #6eccaf;
   font-size: 16px;
@@ -37,13 +40,14 @@ div.form-check.form-switch {
 @media (max-width:768px) {
   .filters-title {
     color: #6eccaf;
-    flex-direction: column;
+    font-size: 28px;
   }
   .section-filters {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   div.form-check.form-switch {
-    margin: 5px;
+    margin: 5px 8px;
   }
 }

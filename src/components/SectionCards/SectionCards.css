@@ -4,36 +4,57 @@
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
 }
+.ch1 {
+  display: flex;
+  align-self: flex-end;
+}
 .card {
   background-color: #223142;
+  color: whitesmoke;
+  width: auto;
 }
 .section-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
 }
 .section-cards h2 {
-  color: whitesmoke;
-  text-align: center; 
+  font-size: 24px;
+  padding: 10px;
+}
+.section-cards h3 {
+  color: #f5f5f5;
+  font-size: 12px;
+  text-align: center;
+  margin: 0px 0px 8px;
+
 }
 .section-cards button {
-  color:#223142;
+  color:#344d67;
   background-color: #6eccaf;
-  align-self: flex-end;
   padding: 6px 12px;
+  display: block;
+  align-self: flex-end;
 }
 .section-cards button:hover {
   color: whitesmoke;
   background-color:#6eccaf;
 }
+li.list-group-item {
+  background-color: #223142;
+  font-size: 19.2px;
+  color: #f5f5f5;
+}
+
 @media (max-width:768px) {
   .section-cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    /* margin: 10px; */
   }
   .section-cards button {
-    padding: 2px 8px;
+    padding: 3px 9px;
   }
-  .section-cards h2 {
+  .section-cards h3 {
     font-size: 20px;
   }
 }
