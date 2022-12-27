@@ -1,9 +1,10 @@
 import Navegation from '../Navegation/Navegation'
+import { Fragment } from 'react';
 import "./Contact.css";
 
 export default function Contact() {
   return (
-    <div>
+    <Fragment>
       <Navegation />
       <main className='main-contact-div d-flex flex-column justify-content-center align-items-center m-auto mt-5 w-75 h-75'>
         <h2>Contact</h2>
@@ -27,6 +28,6 @@ export default function Contact() {
           </div>
         </form>
       </main>
-    </div>
+    </Fragment>
   )
 }

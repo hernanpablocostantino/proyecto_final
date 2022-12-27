@@ -5,33 +5,33 @@
   font-family: 'Raleway', sans-serif;
 }
 .section-filters {
-  margin-top: -40px;
+  margin-top: -2.5rem;
 }
 .filters-title {
   color: #6eccaf;
-  font-size: 38px;
-  margin: 10px 20px 8px;
-  padding: 5px 35px;
+  font-size: 2.375rem;
+  margin: 0.625rem 1.25rem 0.5rem;
+  padding: 0.3125rem 2.1875rem;
 }
 label.form-check-label {
   color: #6eccaf;
-  font-size: 16px;
+  font-size: 1rem;
 }
 input.form-check-input {
   background-color: #b1f0dc;
-  margin: 4px 0px 0px -40px;
+  margin: 0.25rem 0rem 0rem -2.5rem;
 }
 .form-check.form-switch {
   background-color: #344d67;
   color: #6eccaf;
-  font-size: 16px;
-  margin: 0px 0px 2px;
-  padding: 8px 48px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  font-size: 1rem;
+  margin: 0rem 0rem 0.125rem;
+  padding: 0.5rem 3rem;
+  border-radius: 0.625rem;
+  -webkit-border-radius: 0.625rem;
+  -moz-border-radius: 0.625rem;
+  -ms-border-radius: 0.625rem;
+  -o-border-radius: 0.625rem;
 }
 .form-check-input:checked {
   background-color: #223142;
@@ -40,7 +40,7 @@ input.form-check-input {
 @media (max-width:768px) {
   .filters-title {
     color: #6eccaf;
-    font-size: 28px;
+    font-size: 1.75rem;
   }
   .section-filters {
     display: flex;
@@ -48,6 +48,15 @@ input.form-check-input {
     flex-wrap: wrap;
   }
   div.form-check.form-switch {
-    margin: 5px 8px;
+    margin: 0.3125rem 0.5rem;
   }
+}
+@media (max-width:576px) {
+  .section-filters {
+    flex-direction: column;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+  } 
 }

@@ -10,32 +10,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 2.5rem;
 }
 .menu h1 {
-  margin: 0px 16px;
-  padding: 5px 0px;
+  margin: 0rem 1rem;
+  padding: 0.3125rem 0rem;
   color: #6eccaf;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .menu_items {
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 .menu_items li {
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  margin: 0px 5px;
+  border-radius: 0.1875rem;
+  -webkit-border-radius: 0.1875rem;
+  -moz-border-radius: 0.1875rem;
+  -ms-border-radius: 0.1875rem;
+  -o-border-radius: 0.1875rem;
+  margin: 0rem 0.3125rem;
   color: #6eccaf;
-  padding: 7px 13px;
+  padding: 0.4375rem 0.8125rem;
 }
 .menu_items li a {
-  padding: 8px;
+  padding: 0.5rem;
   text-decoration: none;
   display: block;
   color: #6eccaf;
@@ -45,17 +45,16 @@
 }
 .menu_items li:hover {
   background-color: #6eccaf;
-  /* padding: 7px 13px; */
   color: #344d67;
 }
 a.nav-link.btn-active {
   color: #344d67;
   background-color: #6eccaf;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  border-radius: 0.1875rem;
+  -webkit-border-radius: 0.1875rem;
+  -moz-border-radius: 0.1875rem;
+  -ms-border-radius: 0.1875rem;
+  -o-border-radius: 0.1875rem;
 }
 .nav-link {
   display: block;
@@ -68,18 +67,18 @@ a.nav-link.btn-active {
 @media (max-width:768px){
   .menu {
     flex-direction: row;
-    padding: 10px;
+    padding: 0.625rem;
   }
   .menu_items {
     flex-direction: column;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
   .menu li {
-    padding: 4px;
-    margin: 3px 0px;
+    padding: 0.25rem;
+    margin: 0.1875rem 0rem;
   }
   .menu_items li a {
-    padding: 4px;
+    padding: 0.25rem;
   }
 }

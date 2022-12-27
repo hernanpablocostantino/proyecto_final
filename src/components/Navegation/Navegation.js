@@ -1,8 +1,8 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import './Navegation.css';
 
 export default function Navegation() {
-  return(
+  return (
     <header className='menu'>
       <h1>Proyecto - Rick & Morty</h1>
       <nav>
