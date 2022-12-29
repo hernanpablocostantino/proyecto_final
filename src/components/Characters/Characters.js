@@ -38,16 +38,17 @@ export default function Characters() {
     }
 
     //saco la funcion por fuera para que lo pueda utilizar en mi funcion del evento
-    const mostarInfo = async () => {
-        let dato = await traerInfo()
-        let infoPersonajes = dato.results
-        console.log(infoPersonajes)
-        setDatos(infoPersonajes)
-        setInfoCompleta(infoPersonajes)
-    }
+    
     //Se ejecuta cuando se renderiza la pagina
     useEffect(() => {
-        mostarInfo()
+        const mostrarInfo = async () => {
+            let dato = await traerInfo()
+            let infoPersonajes = dato.results
+            console.log(infoPersonajes)
+            setDatos(infoPersonajes)
+            setInfoCompleta(infoPersonajes)
+        }
+        mostrarInfo()
     }, [])
 
 
